@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="org.eclipse.ui.editors">
+      <editor
+            class="com.dadabeatnik.properties.editor.PropertiesEditor"
+            default="false"
+            extensions="properties"
+            icon="img/note-16.gif"
+            id="com.dadabeatnik.properties.editor"
+            name="Language Properties Editor">
+      </editor>
+   </extension>
+
+</plugin>
